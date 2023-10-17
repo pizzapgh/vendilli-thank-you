@@ -440,12 +440,17 @@ p, h1, h2, h3, h4 {
 
 .vendelli-part-two-footer {
   display: flex;
-  height: 650px;
+  height: 700px;
   flex-direction: column;
 }
 @media (min-width: 968px) {
   .vendelli-part-two-footer {
     flex-direction: row;
+  }
+}
+@media (min-width: 1500px) {
+  .vendelli-part-two-footer {
+    height: 650px;
   }
 }
 .vendelli-part-two-footer__questions {
