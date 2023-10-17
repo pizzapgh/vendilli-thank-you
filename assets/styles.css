@@ -434,6 +434,11 @@ p, h1, h2, h3, h4 {
   .vendelli-part-two-bottom-section__inner-right {
     max-width: 700px;
     margin-right: auto;
+    padding-left: 3rem;
+  }
+}
+@media (min-width: 1500px) {
+  .vendelli-part-two-bottom-section__inner-right {
     padding-left: 4rem;
   }
 }
@@ -511,11 +516,11 @@ p, h1, h2, h3, h4 {
   .vendelli-part-two-footer__inner-left {
     max-width: 700px;
     margin-left: auto;
-    padding-right: 4rem;
+    padding-right: 3rem;
   }
 }
 .vendelli-part-two-footer__inner-left ol li {
-  font-size: 1.1rem;
+  font-size: 1rem;
   margin-bottom: 1.5rem;
   font-weight: 600;
 }
@@ -524,12 +529,17 @@ p, h1, h2, h3, h4 {
 }
 @media (min-width: 968px) {
   .vendelli-part-two-footer__inner-left ol li {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
 }
 @media (min-width: 1200px) {
   .vendelli-part-two-footer__inner-left ol li {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
+  }
+}
+@media (min-width: 1500px) {
+  .vendelli-part-two-footer__inner-left ol li {
+    font-size: 1.3rem;
   }
 }
 .vendelli-part-two-footer__inner-left ol li a:hover {
