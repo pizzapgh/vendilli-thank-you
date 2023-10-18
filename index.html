@@ -10,24 +10,34 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Permanent+Marker&display=swap" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
 </head>
 <body>
     <header class="vendelli-part-two-header">
         <div class="vendelli-part-two-header__inner">
-            <p>Chris & Yusef, after my initial interview with Rob last Thursday, he has arranged a second round with both of you for this Tuesday. As a fun "appetizer," I've put together this web page to provide some talking points. Feel free to choose any questions listed below for our discussion.</p>
-            <h3>The Appetizer<h3>    
+            <p>Rob, Chris, and Yusef, I've created a thank you video for Vindelli. Please check it out below.</p>
+            <h3>Thank You<h3>
+                
         </div>
     </header>
     <main class="vendelli-part-two">
        <section class="vendelli-part-two-top-section">
           <div class="vendelli-part-two-top-section__my-statement">
             <div class="vendelli-part-two-top-section__inner-left">
-                <h2>
-                    I get down with <br>
-                    WordPress Development, <br>
-                    Project Management, <br>
-                    Design & Interviews.
-                </h2>
+          <!-- Trigger -->
+            <a href="#video-popup" class="open-popup-link">
+                <svg height="800" width="800" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" xml:space="preserve"><path d="M256 0C114.625 0 0 114.625 0 256c0 141.374 114.625 256 256 256 141.374 0 256-114.626 256-256C512 114.625 397.374 0 256 0zm95.062 258.898-144 85.945a3.323 3.323 0 0 1-3.406.031 3.379 3.379 0 0 1-1.687-2.937V170.045c0-1.218.656-2.343 1.687-2.938a3.403 3.403 0 0 1 3.406.031l144 85.962c1.031.586 1.641 1.718 1.641 2.89 0 1.197-.609 2.307-1.641 2.908z" style="currentColor"/></svg>
+            </a>
+
+            <!-- Hidden Inline Video Container -->
+            <div id="video-popup" class="mfp-hide">
+                <video controls width="100%">
+                    <source src="./assets/thank-you-vendilli.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+
             </div> 
             <div class="vendelli-part-two-top-section__video">
                 <video autoplay loop muted>
@@ -46,49 +56,24 @@
             <img src="./assets/yusef.jpg" alt="Yusef">
             <img src="./assets/rob.jpg" alt="Rob">
             <video autoplay loop muted>
-                <source src="./assets/code.mp4" type="video/mp4">
+                <source src="../design/assets/code.mp4" type="video/mp4">
                 Your browser does not support the video tag.
             </video>              
           </div>
        </section>
-       <section class="vendelli-part-two-bottom-section">
-            <div class="vendelli-part-two-bottom-section__orange-graphic">
-                <div class="vendelli-part-two-bottom-section__inner-left">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="134" height="324"><g fill="#C3D2A7" fill-rule="evenodd"><path d="M102.715 152.215c-5.418-.808-9.166-5.906-8.365-11.384.8-5.479 5.837-9.265 11.262-8.457 5.418.809 9.16 5.906 8.365 11.385-.8 5.478-5.844 9.265-11.262 8.456Zm-10.605 34.46c-6.626-.988-11.2-7.212-10.223-13.914.976-6.69 7.139-11.324 13.764-10.336 6.632.99 11.2 7.224 10.224 13.916-.976 6.701-7.133 11.324-13.765 10.335Zm-41.556-12.957c-4.818-.719-8.147-5.248-7.433-10.12.707-4.872 5.186-8.236 10.004-7.517 4.824.719 8.152 5.248 7.44 10.12-.714 4.872-5.194 8.236-10.011 7.517Zm-13.265-31.263c-4.216-.63-7.126-4.589-6.506-8.855.625-4.255 4.542-7.207 8.759-6.577 4.223.63 7.126 4.6 6.507 8.854-.62 4.267-4.536 7.208-8.76 6.578Zm95.508 9.744 1.051-7.187c1.176-8.059-4.611-15.443-12.632-16.144l-39.36-3.418 1.357-9.325c17.175-.028 32.203-12.755 34.78-30.447 2.585-17.692-8.164-34.265-24.594-39.307l3.178-21.803c.363-2.459.426-4.95.182-7.419L95.113.28c-.031-.32-.469-.385-.588-.088l-6.4 15.67a30.41 30.41 0 0 0-1.946 7.154L82.994 44.82c-17.174.029-32.196 12.756-34.78 30.448-2.584 17.692 8.164 34.264 24.6 39.307l-1.457 9.964-61.86-5.377-5.943 40.72c2.265-1.026 5.043-1.433 7.946-1 6.625.988 11.38 5.989 10.623 11.16-.757 5.18-6.732 8.568-13.364 7.58-2.897-.434-5.443-1.635-7.32-3.279L0 184.197l60.764 12.917-1.583 10.847c-17.174.029-32.202 12.755-34.78 30.448-2.584 17.692 8.165 34.264 24.595 39.307 1.651.516 3.378.908 5.143 1.172 1.77.263 3.535.392 5.261.38 17.175-.03 32.197-12.756 34.781-30.448 2.584-17.692-8.165-34.265-24.601-39.307l1.495-10.207 53.194 11.315 4.987-34.172c-6.626-.989-11.2-7.212-10.224-13.914.976-6.692 7.133-11.325 13.765-10.336Z"/><path d="m60.36 279.597-3.203 20.815a35.335 35.335 0 0 1-2.478 8.61l-6.367 14.789c-.124.294-.582.23-.615-.087l-1.634-15.92a34.617 34.617 0 0 1 .222-8.93l3.204-20.814c1.725.511 3.53.9 5.373 1.161 1.85.261 3.694.388 5.498.376"/></g></svg>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="460" height="85"><path fill="#000" fill-rule="evenodd" d="M433.383 43.667c-28.914-3.728-56.23-6.94-83.857-6.376-24.649.502-49.27 1.68-73.82 3.841-28.261 2.49-56.524 5.133-84.685 8.532-35.322 4.263-70.636 8.644-105.619 15.371-23.419 4.5-46.671 9.51-69.304 17.109-2.035.684-4.03 1.505-6.102 2.037-3.939 1.01-8.142 1.02-9.188-3.687-.98-4.418 2.818-5.739 6.475-6.448 29.683-5.757 59.351-11.59 89.047-17.275 34.983-6.695 70.417-10.188 105.762-14.12 31.65-3.521 63.453-5.676 95.177-8.573 25.1-2.29 50.23-3.482 75.445-3.226 16.381.168 32.57 2.639 48.893 3.29 2.505.102 5.296 1.006 8.12-1.56-5.488-4.747-11.996-7.033-18.384-9.333-10.324-3.717-20.812-6.98-31.183-10.58-3.961-1.376-9.402-2.636-7.22-8.377 2.063-5.42 6.672-3.491 10.938-1.83 20.706 8.069 41.55 15.782 62.206 23.97 5.729 2.272 13.509 3.805 12.979 12.165-.51 8.046-7.702 10.163-14.07 12.378-5.558 1.934-11.105 3.96-16.78 5.469-14.7 3.91-27.11 11.25-36.705 23.206-1.72 2.141-3.752 5.725-7.043 2.823-2.825-2.489-.726-5.443 1.187-7.78 8.992-10.978 19.761-19.52 33.222-24.508 4.4-1.632 9.257-2.34 14.51-6.518"/></svg>
-                </div>
-            </div>
-            <div class="vendelli-part-two-bottom-section__quote">
-                <div class="vendelli-part-two-bottom-section__inner-right">
-                    <blockquote>
-                        “We’re spending less time with other humans. I think those skills are still going to remain important and I think they’re going to be harder to teach and cultivate as we spend less time in person and less time appreciating the other human you’re working with.”
-                        <br>
-                        <a href="https://youtu.be/pugZCY98A4E?si=Wa_es_xUFoQ_sjxs&t=676" target="_blank">
-                            <span class="name">- Chris Vendilli</span>   
-                        </a>          
-                    </blockquote>                
-                </div>
-            </div>
-       </section>
     </main>
-    <footer class="vendelli-part-two-footer">
-          <div class="vendelli-part-two-footer__questions">
-            <div class="vendelli-part-two-footer__inner-left">
-            <ol>
-                <li>What are your immediate expectations for the new hire to help make things easier for everyone at Vendilli?</li>
-                <li>Is there a specific project, be it recent or from the past, that has helped you grow in your field?</li>
-                <li>What books or other forms of media would you recommend to a new team member?</li>
-                <li>If you could put a message on a billboard, what would it be?</li>
-                <li>Who has influenced you the most in your career?</li>
-                <li>Tell me more about <a href="https://bricksbuilder.io/">Bricks</a> and how it's helped streamline development?</li>
-                <li>If you could peer into a crystal ball, how do you foresee the trajectory of Vendilli Digital over the next 3-5 years?</li>
-                <li style="margin-bottom: 0;">If you could choose your ultimate last meal on Earth, what would it be?</li>
-            </ol>
-           </div>
-        </div>
-        <div class="vendelli-part-two-footer__me">
-            <img src="./assets/me.png" alt="Chris">
-        </div>
-    </footer>
 </body>
 </html>
+
+<script>
+$(document).ready(function() {
+    $('.open-popup-link').magnificPopup({
+        type: 'inline',
+        midClick: true, 
+        mainClass: 'mfp-fade',
+        removalDelay: 160,
+        preloader: false,
+        fixedContentPos: false
+    });
+});
+</script>
