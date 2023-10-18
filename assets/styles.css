@@ -92,7 +92,7 @@ p, h1, h2, h3, h4 {
 
 .vendelli-part-two-top-section {
   display: flex;
-  height: 100%;
+   height: 100%;
   flex-direction: column;
 }
 @media (min-width: 968px) {
@@ -150,7 +150,7 @@ p, h1, h2, h3, h4 {
     padding-right: 1rem;
     align-items: center;
     justify-content: center;
-    height: 100%;
+    min-height: calc(100vh - 100px);
   }
 }
 .vendelli-part-two-top-section__my-statement h2 {
